@@ -1,0 +1,32 @@
+.header {
+    text-align: center;
+}
+
+.container {
+    display: table;
+    border: 1px solid black;
+    border-collapse: collapse;
+    margin: 0 auto;
+}
+
+th {
+    border: 1px solid black;
+}
+
+.chess_row td {
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    font-size: 30px;
+    text-align: center;
+    color: #000;
+    border: 1px solid black;
+}
+
+.chess_row td:hover {
+    background: rgb(202, 194, 194);
+}
+
+#hide {
+    visibility: hidden;
+}
